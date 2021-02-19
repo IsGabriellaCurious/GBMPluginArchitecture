@@ -22,3 +22,16 @@ A casual constants class that holds info such as plugin name, version and instan
 Fixed Updater creates a runnable that runs every x amount of ticks, calling an event every time.
 
 You can detect when an updater fires by listening for the event `PAFixedUpdate`. You can then identify which fixed updater is calling the event through `PAFixedUpdate#getUpdateType`.
+
+## Installation
+This is pretty simple, just follow the steps below!
+1. Download and compile the source code.
+2. Build the code with maven.
+3. Edit the `install.bat` file with the correct location to your maven executable and the correct jar file.
+4. Add the maven dependency to your class using the following:
+        <dependency>
+            <groupId>moe.gabriella</groupId>
+            <artifactId>GBMPluginArchitecture</artifactId>
+            <version>version here</version>
+        </dependency>
+5. Enjoy!
