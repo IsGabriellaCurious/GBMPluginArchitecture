@@ -29,9 +29,11 @@ This is pretty simple, just follow the steps below!
 2. Build the code with maven.
 3. Edit the `install.bat` file with the correct location to your maven executable and the correct jar file.
 4. Add the maven dependency to your class using the following:
-        <dependency>
-            <groupId>moe.gabriella</groupId>
-            <artifactId>GBMPluginArchitecture</artifactId>
-            <version>version here</version>
-        </dependency>
+```
+<dependency>
+    <groupId>moe.gabriella</groupId>
+    <artifactId>GBMPluginArchitecture</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+```
 5. Enjoy!
