@@ -13,7 +13,14 @@ public abstract class PAPlugin extends JavaPlugin {
         PAConsts.pluginVersion = pluginVersion;
     }
 
+    /**
+     * Put your onEnable code here. Runs during the JavaPlugin#onEnable method.
+     */
     public void onPluginEnable() { }
+
+    /**
+     * Put your onDisable code here. Runs during the JavaPlugin#onDisable method.
+     */
     public void onPluginDisable() { }
 
     @Override
