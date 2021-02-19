@@ -33,7 +33,7 @@ This is pretty simple, just follow the steps below!
 <dependency>
     <groupId>moe.gabriella</groupId>
     <artifactId>GBMPluginArchitecture</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>version</version>
 </dependency>
 ```
 5. Enjoy!
