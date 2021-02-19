@@ -15,7 +15,10 @@ The main plugin class should extend `PAPlugin`. Do ***NOT*** override the method
 ### Logger
 A basic logger that allows you to log things like error, warn, debug with colours! Done through class `PALogger` using methods such as `PALogger#info`, `PALogger#debug`, etc.
 
+### Plugin Constants
+A casual constants class that holds info such as plugin name, version and instance of the plugin class.
+
 ### Fixed Updater
 Fixed Updater creates a runnable that runs every x amount of ticks, calling an event every time.
 
-By listening for the event `PAFixedUpdate`. You can then identify which fixed updater is calling the event through `PAFixedUpdate#getUpdateType`.
+You can detect when an updater fires by listening for the event `PAFixedUpdate`. You can then identify which fixed updater is calling the event through `PAFixedUpdate#getUpdateType`.
