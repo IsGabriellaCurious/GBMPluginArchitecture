@@ -5,6 +5,9 @@ import moe.gabriella.gbmpa.utils.PALogger;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitRunnable;
 
+/**
+ * Bukkit Runnable that handles the firing of events for fixed updaters.
+ */
 public class PAFURunnable extends BukkitRunnable {
 
     String updateType;
